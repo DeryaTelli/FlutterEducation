@@ -7,7 +7,10 @@ class ContainerSizedBoxLearn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       //flutter sayfasi yapiyorsak scaffold ile sarmalamamiz gerekiyor
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('Container SizedBox Example'),
+        centerTitle: true,
+      ),
       body: Column(
         children: [
           SizedBox(
